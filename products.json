@@ -1,0 +1,44 @@
+{
+  "shop": {
+    "name": "Bonkis Mercedes Paradies",
+    "tagline": "Exklusive Siku-Mercedes-Modelle mit Sammlerdrama, Chromfantasie und völlig unvernünftigen Preisen.",
+    "currency": "EUR"
+  },
+  "effects": {
+    "heroParticles": 26,
+    "cardTilt": true,
+    "scrollReveal": true,
+    "pricePulse": true,
+    "spotlightColor": "#f6c84f"
+  },
+  "vehicles": [
+    {
+      "id": "mb-trac-800-gelb",
+      "name": "Siku MB trac 800 Kipper",
+      "category": "Gelber Baustellen-Klassiker",
+      "image": "assets/gelber-siku-mb-trac-800.jpeg",
+      "price": 84999,
+      "badge": "Unikat mit Arbeitslaune",
+      "shortDescription": "Gelber Mercedes MB trac 800 mit kräftigen Reifen, schwarzer Haube und großer Kippmulde. Sieht aus, als würde er jeden Schreibtisch sofort zur Baustelle erklären.",
+      "specs": [
+        "Massiver Siku-Auftritt",
+        "Kippmulde in Signalgelb",
+        "Rustikaler Sammlercharme"
+      ]
+    },
+    {
+      "id": "mercedes-transporter-blau",
+      "name": "Siku Mercedes Transporter Blau",
+      "category": "Edler Frontlenker mit Chrom",
+      "image": "assets/blauer-mercedes-transporter.jpeg",
+      "price": 129999,
+      "badge": "Showroom-Legende",
+      "shortDescription": "Blauer Mercedes Modell-Transporter mit glänzender Front, Stern auf der Haube und silberner Ladefläche. Der Blick von vorne ist pure Miniatur-Chefetage.",
+      "specs": [
+        "Mercedes-Stern doppelt sichtbar",
+        "Glänzende Chromdetails",
+        "Premium-Blau mit Sammlerblick"
+      ]
+    }
+  ]
+}
