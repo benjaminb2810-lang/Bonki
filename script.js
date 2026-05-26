@@ -74,6 +74,8 @@ function renderVehicles(data) {
   heroTagline.textContent = data.shop.tagline;
   featuredPrice.textContent = formatter.format(Math.max(...data.vehicles.map((vehicle) => vehicle.price)));
 
+  if (!grid || !data.vehicles?.length) return;
+
   grid.innerHTML = data.vehicles.map((vehicle) => `
     <article class="vehicle-card reveal" data-tilt-card>
       <div class="vehicle-media">
